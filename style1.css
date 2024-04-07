@@ -1,0 +1,165 @@
+
+.sub{
+    display: flex;
+    
+}
+.sub1{
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 90px;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 5px;
+    background-color: #ffff;
+}
+a{
+    text-decoration: none;
+}
+.sub1 img{
+width: 20px;
+height: 20px;
+position: relative;
+left: 5px;
+bottom: 23px;
+
+}
+.sub1 p{
+    color: #052F0A;
+    text-align: center;
+   position: relative;
+   bottom: 5px;
+}
+.sub2{
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 90px;
+    height: 40px;
+    margin-left: 750px;
+    margin-top: 5px; 
+    background-color: #ffff;
+}
+.sub2 p{
+    color: #052F0A;
+    text-align: center;
+   position: relative;
+   bottom: 5px;
+}
+body{
+    background-color: #052F0A;
+}
+h1{
+    color: #ffff;
+    text-align: center;
+}
+.UI{
+    display: grid;
+   
+}
+.test{
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 130px;
+    height: 40px;
+    background-color: #ffff;
+    text-align: center;
+    margin-left: 500px;
+   align-self: center;
+}
+.test h3{
+    color: #052F0A;
+    position: relative;
+    bottom: 10px;
+}
+.hotel{
+    display: flex;
+   margin-left: 70px;
+   margin-top: 40px;
+}
+.hotel img{
+  width: 450px;
+  height: 450px;
+
+}
+.hotel1{
+    margin-left: 80px;
+}
+.hotel1 img{
+    width: 450px;
+    height: 450px;
+}
+.test1{
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 130px;
+    height: 40px;
+    background-color: #ffff;
+    text-align: center;
+  margin-left: 500px;
+  margin-top: 30px;
+   align-self: center;
+}
+.test1 h3{
+    color: #052F0A;
+    position: relative;
+    bottom: 10px;
+}
+.med{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.med img{
+    width: 450px;
+  height: 450px;
+
+}
+.med1{
+   margin-left: 70px;
+   
+} 
+
+.med1 img{
+    width: 450px;
+    height: 450px;
+}
+.test4{
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 180px;
+    height: 50px;
+    background-color: #ffff;
+    text-align: center;
+    margin-left: 500px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    align-self: center;  
+}
+.test4 h3{
+    color: #052F0A;
+    position: relative;
+    bottom: 20px; 
+}
+.port{
+    display: flex;
+    background-color: #ffff;
+    border: 1px solid;
+    border-radius: 0 50px 0 50px;
+}
+.port1 img{
+    width: 400px;
+    height: 350px;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+.port2{
+    color: #052F0A;
+    margin-top: 80px;
+    margin-left: 150px;
+}
+.port2 dt{
+   margin-left: 40px;
+   font-size: 20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

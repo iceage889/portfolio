@@ -1,0 +1,302 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #052F0A;
+}
+nav{
+    display: flex;
+    width: 100%;
+    
+}
+a{
+    text-decoration: none;
+}
+nav img{
+    border: 1px solid none;
+    border-radius: 55%;
+    width: 2%;
+    height: 2%;
+    margin-top: 10px;
+    margin-left: 15px;
+   
+}
+.top ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.top ul li{
+   list-style: none;
+   align-content: center;
+   margin-left: 150px;
+}
+.top ul li a{
+    list-style: none;
+    color: white;
+}
+.mobile{
+   display: hidden;
+}
+.dash{
+    border: 1px solid white;
+    width: 100%;
+}
+.flankColor{
+    display: flex;
+}
+.pictured img{
+    width: 300px;
+    height: 450px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 2px solid white ;
+    border-radius: 40px 20px;
+}
+.named{
+    display: grid;  
+    margin-top: 200px;
+    margin-left: 120px;
+}
+
+.named p{
+    color: #ffff;
+    font: 1em sans-serif;
+}.CV {
+    display: flex;
+    margin-bottom: 260px;
+    width: 170px;
+    height: 30px;
+    background-color: #ffff;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+
+.CV a p {
+   color: black;
+   position: relative;
+   bottom: 10px;
+   left: 12px;
+}
+
+.edu{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+}
+.degreed{
+    color: #ffffff;
+}
+.degreed h1{
+    margin-left: 80px;
+    border: 1px solid white;
+    border-radius: 10px;
+    color:#052F0A;
+    background-color: white;
+    width: 160px;
+    height: 40px;
+    
+  
+}
+.degreed ul{
+    margin: 0;
+    font-size: 15px;
+    position: relative;
+    bottom: 15px;
+
+}
+.degreed li{
+    list-style: square;
+}
+.degreed1{
+    margin-right: 250px;
+}
+.degreed1 h1{
+    margin-left: 50px;
+}
+.dash2{
+    border: 1px solid white;
+    width: 100%;
+}
+.conjoin{
+    background-color: #052F0A;
+    display: flex;
+    height: 330px;
+
+}
+.con{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #ffff;
+}
+.con h2{
+    color: #ffff;
+}
+.dash3{
+    margin-left: 380px;
+    border: 1px solid white;
+    height: 100%;
+}
+.detail{
+    margin-top: 20px;
+   display: grid;
+    margin-left: 210px;
+  width: 50px;
+}
+.detail h3{
+    color: #ffff;
+}
+.detail form {
+    
+    color: #ffffff;
+}
+.detail input{
+    background: transparent;
+}
+.dash4{
+    border: 1px solid white;
+    width: 100%;
+}
+.footerdown{
+    margin-left: 450px;
+    color: #ffff;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+@media screen and (max-width:400px)
+{
+    nav{
+       display: flex;
+
+    }
+    nav img{
+        width: 5%;
+        height: 5%;
+    }
+    .top {
+    display: hidden;
+    }
+    .dash{
+        border: 1px solid white;
+        width: 1000%;
+    }
+    .flankColor{
+        display: flex;
+    }
+    .pictured img{
+        width: 300px;
+        height: 450px;
+        margin-left: 30px;
+        margin-top: 30px;
+        border: 2px solid white ;
+        border-radius: 40px 20px;
+    }
+    .named{
+        display: grid;  
+        margin-top: 200px;
+        margin-left: 120px;
+    }
+    
+    .named p{
+        color: #ffff;
+        font: 1em sans-serif;
+    }.CV {
+        display: flex;
+        margin-bottom: 260px;
+        width: 170px;
+        height: 30px;
+        background-color: #ffff;
+        border-radius: 20px;
+        text-align: center;
+        justify-content: space-between;
+        
+    }
+    
+    .CV a p {
+       color: black;
+       position: relative;
+       bottom: 10px;
+       left: 12px;
+    }
+    .edu{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 20px;
+    }
+    .degreed{
+        color: #ffffff;
+    }
+    .degreed h1{
+        margin-left: 50px;
+        border: 1px solid white;
+        border-radius: 10px;
+        color:#052F0A;
+        background-color: white;
+        width: 160px;
+        height: 40px;
+        
+      
+    }
+    .degreed ul{
+        margin: 0;
+        font-size: 15px;
+        position: relative;
+        bottom: 15px;
+    
+    }
+    .degreed li{
+        list-style: square;
+    }
+    .degreed1{
+        margin-right: 250px;
+    }
+    .degreed1 h1{
+        margin-left: 30px;
+    }
+    .dash2{
+        border: 1px solid white;
+        width: 1000px;
+    }
+    .dash3{
+        margin-left: 80px;
+        border: 1px solid white;
+        height: 100%;
+    }
+    .detail{
+        margin-top: 20px;
+       display: grid;
+        margin-left: 40px;
+      width: 50px;
+    }
+    .detail h3{
+        color: #ffff;
+    }
+    .detail form {
+        
+        color: #ffffff;
+    }
+    .detail input{
+        background: transparent;
+    }
+    .dash4{
+        border: 1px solid white;
+        width: 1000%;
+    }
+    .footerdown{
+        margin-left: 150px;
+        color: #ffff;
+        font-size: 1em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+   
+
+}
+
+@media screen and (max-width:400px){
+    
+}
