@@ -5,6 +5,7 @@ body{
 }
 nav{
     display: flex;
+    align-items: center;
     width: 100%;
     
 }
@@ -36,7 +37,18 @@ nav img{
     color: white;
 }
 .mobile{
-   display: hidden;
+   display: none;
+}
+/* media query for navbar */
+@media screen and (max-width:378px) {
+    .mobile{
+        display: block;
+    }
+}
+@media screen and (max-width:800px) {
+    .mobile{
+        display: block;
+    }
 }
 .dash{
     border: 1px solid white;
@@ -298,5 +310,5 @@ nav img{
 }
 
 @media screen and (max-width:400px){
-    
+
 }
