@@ -1,63 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Albert Profile</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<nav>
-    <img src="images/IMG_3013.JPG" alt="">
-    <div class="top">
-        <ul>
-            <li><a href="Portfolio.html">Portfolio</a></li>
-            <li><a href="About Me.html">About Me</a></li>
-            <li><a href="Contact Me.html">Contact Me</a></li>
-        </ul>
-    </div>
-    <div class="Mobile">
-        <ul>
-            <li><a href="Portfolio.html">Portfolio</a></li>
-            <li><a href="About Me.html">About Me</a></li>
-            <li><a href="Contact Me.html">Contact Me</a></li>
-           
-        </ul>
-</nav>
-</div>
-<div class="dash"></div>
+
 <body>
+    <nav class="desktop-nav">
+        <img class="logo" src="images/IMG_3013.JPG" alt="">
+        <div class="top">
+            <ul>
+                <li><a href="Portfolio.html">Portfolio</a></li>
+                <li><a href="About Me.html">About Me</a></li>
+                <li><a href="Contact Me.html">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="mobile-nav">
+        <img class="logo" src="images/IMG_3013.JPG" alt="">
+        <img class="menu-icon" src="images/menu.png" alt="">
+    </nav>
+    <div class="dash"></div>
     <div class="flankColor">
         <div class="pictured">
             <img src="images/IMG_3013.JPG" alt="">
         </div>
         <div class="named">
-            <p>My name is Albert Ejidike , I am a frontend developer 
-                <br>and UI UX designer </p>
-                <div class="CV">
-                <a href="My degree/Ugo.pdf" target="_blank"><p>Download My CV</p></a><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/052f0a/file--v1.png" alt="file--v1"/>
-                </div>
+            <p>My name is Albert Ejidike , I am a frontend developer
+                <br>and UI UX designer
+            </p>
+            <div class="CV">
+                <a href="My degree/Ugo.pdf" target="_blank">
+                    <p>Download My CV</p>
+                </a><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/052f0a/file--v1.png"
+                    alt="file--v1" />
+            </div>
         </div>
     </div>
-        <br> <br>
-        <div class="edu">
-            <div class="degreed">
-                <h1>Education </h1>
-                <ul>
-                    <li>Completed my first degree in computer engineering in 30th june 2023</li>
-                    <li>Completed internship in UI</li>
-                    <li>Currently working on frontend and Backend</li>
-                </ul>
-            </div>
-            <div class="degreed1">
-            <div class="degreed">
-                <h1>Certificates</h1>
+    <br>
+    <div class="edu">
+        <div class="degreed">
+            <h2>Education </h2>
+            <ul>
+                <li>Completed my first degree in computer engineering in 30th june 2023</li>
+                <li>Completed internship in UI</li>
+                <li>Currently working on frontend and Backend</li>
+            </ul>
+        </div>
+        <div class="degreed1">
+            <div class="degreed2">
+                <h2>Certificates</h2>
                 <ul>
                     <li>BEng. Computer Engineering </li>
                     <li>Udemy Certificates</li>
                 </ul>
             </div>
-            </div>
         </div>
+    </div>
     <br>
     <div class="dash2"></div>
     <footer>
@@ -69,26 +71,28 @@
             </div>
             <div class="dash3"></div>
             <div class="detail">
-                <h3>Drop your feedback</h3>
+                <h2>Drop your feedback</h2>
                 <form action="mailto:ejidike48@gmail.com" method="post" enctype="text/plain">
-                <label for="">Name :</label>
-                <input type="text" name="Name" placeholder="Fullname"><br>   
-                <label for="">Email:</label>
-                <input type="email" name="Email" placeholder="Email"> <br>
-                <label for="">Your Message:</label>
-                <textarea name="Feedback" id="" cols="60" rows="10"></textarea>
-                <input type="submit">
+                    <label for="Name:"></label>
+                    <input type="text" name="Name" id="username" placeholder="Fullname"><br>
+                    <label for="Email:"></label>
+                    <input type="email" name="Email" id="email" placeholder="Email"> <br>
+                    <label for="Your Message:"></label>
+                    <textarea name="Feedback" id="textarea" placeholder="Your Message" cols="60" rows="10"></textarea>
+                    <br>
+                    <input type="submit" id="submit">
                 </form>
             </div>
         </div>
 
-       
+
     </footer>
     <div class="dash4"></div>
     <br>
     <div class="footerdown">
         <p>Copyright 2024 - Albert</p>
     </div>
-   
+
 </body>
+
 </html>

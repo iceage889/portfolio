@@ -1,62 +1,72 @@
-
-.sub{
+.sub {
     display: flex;
-    
+    justify-content: space-between;
+
 }
-.sub1{
+
+.sub1 {
     align-items: center;
     border: 1px solid white;
     border-radius: 10px;
     width: 90px;
     height: 40px;
-    margin-left: 100px;
+    margin-left: 20px;
     margin-top: 5px;
     background-color: #ffff;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.sub1 img{
-width: 20px;
-height: 20px;
-position: relative;
-left: 5px;
-bottom: 23px;
+
+.sub1 img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 5px;
+    bottom: 23px;
 
 }
-.sub1 p{
+
+.sub1 p {
     color: #052F0A;
     text-align: center;
-   position: relative;
-   bottom: 5px;
+    position: relative;
+    bottom: 5px;
 }
-.sub2{
+
+.sub2 {
     border: 1px solid white;
     border-radius: 10px;
     width: 90px;
     height: 40px;
-    margin-left: 750px;
-    margin-top: 5px; 
+    margin-left: 50px;
+    margin-top: 5px;
     background-color: #ffff;
 }
-.sub2 p{
+
+.sub2 p {
     color: #052F0A;
     text-align: center;
-   position: relative;
-   bottom: 5px;
+    position: relative;
+    bottom: 5px;
 }
-body{
+
+body {
     background-color: #052F0A;
 }
-h1{
+
+h1 {
     color: #ffff;
     text-align: center;
 }
-.UI{
+
+.UI {
     display: grid;
-   
+
 }
-.test{
+
+.test {
     border: 1px solid white;
     border-radius: 10px;
     width: 130px;
@@ -64,66 +74,77 @@ h1{
     background-color: #ffff;
     text-align: center;
     margin-left: 500px;
-   align-self: center;
+    align-self: center;
 }
-.test h3{
+
+.test h3 {
     color: #052F0A;
     position: relative;
     bottom: 10px;
 }
-.hotel{
+
+.hotel {
     display: flex;
-   margin-left: 70px;
-   margin-top: 40px;
+    margin-left: 70px;
+    margin-top: 40px;
 }
-.hotel img{
-  width: 450px;
-  height: 450px;
+
+.hotel img {
+    width: 450px;
+    height: 450px;
 
 }
-.hotel1{
+
+.hotel1 {
     margin-left: 80px;
 }
-.hotel1 img{
+
+.hotel1 img {
     width: 450px;
     height: 450px;
 }
-.test1{
+
+.test1 {
     border: 1px solid white;
     border-radius: 10px;
     width: 130px;
     height: 40px;
     background-color: #ffff;
     text-align: center;
-  margin-left: 500px;
-  margin-top: 30px;
-   align-self: center;
+    margin-left: 500px;
+    margin-top: 30px;
+    align-self: center;
 }
-.test1 h3{
+
+.test1 h3 {
     color: #052F0A;
     position: relative;
     bottom: 10px;
 }
-.med{
+
+.med {
     display: flex;
     margin-left: 70px;
     margin-top: 30px;
 }
-.med img{
+
+.med img {
     width: 450px;
-  height: 450px;
+    height: 450px;
 
 }
-.med1{
-   margin-left: 70px;
-   
-} 
 
-.med1 img{
+.med1 {
+    margin-left: 70px;
+
+}
+
+.med1 img {
     width: 450px;
     height: 450px;
 }
-.test4{
+
+.test4 {
     border: 1px solid white;
     border-radius: 10px;
     width: 180px;
@@ -133,33 +154,435 @@ h1{
     margin-left: 500px;
     margin-bottom: 5px;
     margin-top: 5px;
-    align-self: center;  
+    align-self: center;
 }
-.test4 h3{
+
+.test4 h3 {
     color: #052F0A;
     position: relative;
-    bottom: 20px; 
+    bottom: 20px;
 }
-.port{
+
+.port {
     display: flex;
     background-color: #ffff;
     border: 1px solid;
     border-radius: 0 50px 0 50px;
 }
-.port1 img{
+
+.port1 img {
     width: 400px;
     height: 350px;
     margin-left: 30px;
     padding-top: 10px;
 }
 
-.port2{
+.port2 {
     color: #052F0A;
     margin-top: 80px;
     margin-left: 150px;
 }
-.port2 dt{
-   margin-left: 40px;
-   font-size: 20px;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+.port2 dt {
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (max-width:768px) {
+    .sub {
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+
+    .sub1 {
+
+        border: 1px solid white;
+        border-radius: 10px;
+        width: 100px;
+        height: 40px;
+
+        background-color: #ffff;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .sub1 img {
+        width: 20px;
+        height: 20px;
+        position: relative;
+        left: 5px;
+        bottom: 23px;
+
+    }
+
+    .sub1 p {
+        color: #052F0A;
+        text-align: center;
+        position: relative;
+        bottom: 5px;
+    }
+
+    .sub2 {
+        border: 1px solid white;
+        border-radius: 10px;
+        width: 90px;
+        height: 40px;
+        margin-left: 80px;
+        margin-top: 5px;
+        background-color: #ffff;
+    }
+
+    .sub2 p {
+        color: #052F0A;
+        text-align: center;
+        position: relative;
+        bottom: 5px;
+    }
+
+    body {
+        background-color: #052F0A;
+    }
+
+    h1 {
+        color: #ffff;
+        text-align: center;
+
+    }
+
+    .UI {
+        display: grid;
+
+
+    }
+
+    .test {
+        border: 1px solid white;
+        border-radius: 10px;
+        width: 130px;
+        height: 40px;
+        background-color: #ffff;
+        margin-left: 300px;
+
+    }
+
+    .test h3 {
+        color: #052F0A;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .hotel {
+        display: grid;
+        gap: 30px;
+    }
+
+    .hotel img {
+        margin-left: 50px;
+        width: 450px;
+        height: 450px;
+
+    }
+
+    .hotel1 {
+        margin-left: 0;
+    }
+
+    .hotel1 img {
+        margin-left: 50px;
+        width: 450px;
+        height: 450px;
+    }
+
+    .test1 {
+        border: 1px solid white;
+        border-radius: 10px;
+        width: 130px;
+        height: 40px;
+        background-color: #ffff;
+        text-align: center;
+        margin-left: 300px;
+        margin-top: 30px;
+        align-self: center;
+    }
+
+    .test1 h3 {
+        color: #052F0A;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .med {
+        display: grid;
+        gap: 50px;
+    }
+
+    .med img {
+        margin-left: 50px;
+        width: 450px;
+        height: 450px;
+
+    }
+
+    .med1 {
+        margin-left: 0px;
+
+    }
+
+    .med1 img {
+        margin-left: 50px;
+        width: 450px;
+        height: 450px;
+    }
+
+    .test4 {
+        border: 1px solid white;
+        border-radius: 10px;
+        width: 180px;
+        height: 50px;
+        background-color: #ffff;
+        text-align: center;
+        margin-left: 200px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        align-self: center;
+    }
+
+    .test4 h3 {
+        color: #052F0A;
+        position: relative;
+        bottom: 20px;
+    }
+
+    .port {
+        display: flex;
+        background-color: #ffff;
+        border: 1px solid;
+        border-radius: 0 50px 0 50px;
+    }
+
+    .port1 img {
+        width: 400px;
+        height: 350px;
+        margin-left: 30px;
+        padding-top: 10px;
+    }
+
+    .port2 {
+        color: #052F0A;
+        margin-top: 80px;
+        margin-left: 150px;
+    }
+
+    .port2 dt {
+        margin-left: 40px;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+
+@media screen and (max-width:425px) {
+    .sub {
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+
+    .sub1 {
+
+        border: 1px solid white;
+        border-radius: 10px;
+        width: 100px;
+        height: 40px;
+
+        background-color: #ffff;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .sub1 img {
+        width: 20px;
+        height: 20px;
+        position: relative;
+        left: 5px;
+        bottom: 23px;
+
+    }
+
+    .sub1 p {
+        color: #052F0A;
+        text-align: center;
+        position: relative;
+        bottom: 5px;
+    }
+
+    .sub2 {
+        border: 1px solid white;
+        border-radius: 10px;
+        width: 90px;
+        height: 40px;
+        margin-left: 180px;
+        margin-top: 5px;
+        background-color: #ffff;
+    }
+
+    .sub2 p {
+        color: #052F0A;
+        text-align: center;
+        position: relative;
+        bottom: 5px;
+    }
+
+    body {
+        background-color: #052F0A;
+    }
+
+    h1 {
+        color: #ffff;
+        text-align: center;
+
+    }
+
+    .UI {
+        display: grid;
+
+
+    }
+
+    .test {
+        border: 1px solid white;
+        border-radius: 10px;
+        width: 130px;
+        height: 40px;
+        background-color: #ffff;
+        margin-left: 150px;
+
+    }
+
+    .test h3 {
+        color: #052F0A;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .hotel {
+        display: grid;
+        gap: 30px;
+    }
+
+    .hotel img {
+        margin-left: 10px;
+        width: 250px;
+        height: 250px;
+
+    }
+
+    .hotel1 {
+        margin-left: 0;
+    }
+
+    .hotel1 img {
+        margin-left: 10px;
+        width: 250px;
+        height: 250px;
+    }
+
+    .test1 {
+        border: 1px solid white;
+        border-radius: 10px;
+        width: 130px;
+        height: 40px;
+        background-color: #ffff;
+        text-align: center;
+        margin-left: 150px;
+        margin-top: 30px;
+        align-self: center;
+    }
+
+    .test1 h3 {
+        color: #052F0A;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .med {
+        display: grid;
+        gap: 50px;
+    }
+
+    .med img {
+        margin-left: 10px;
+        width: 250px;
+        height: 250px;
+
+    }
+
+    .med1 {
+        margin-left: 0px;
+
+    }
+
+    .med1 img {
+        margin-left: 10px;
+        width: 250px;
+        height: 250px;
+    }
+
+    .test4 {
+        border: 1px solid white;
+        border-radius: 10px;
+        width: 180px;
+        height: 50px;
+        background-color: #ffff;
+        text-align: center;
+        margin-left: 100px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        align-self: center;
+    }
+
+    .test4 h3 {
+        color: #052F0A;
+        position: relative;
+        bottom: 20px;
+    }
+
+    .port {
+        display: flex;
+        background-color: #ffff;
+        border: 1px solid;
+        border-radius: 0 50px 0 50px;
+    }
+
+    .port1 img {
+        width: 200px;
+        height: 150px;
+        margin-left: 10px;
+        padding-top: 10px;
+        border-radius: 0 50px;
+    }
+
+    .port2 {
+        color: #052F0A;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .port2 dt {
+        margin-left: 5px;
+        font-size: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    dd {
+        font-size: 10px;
+    }
 }

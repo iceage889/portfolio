@@ -1,10 +1,11 @@
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
     padding: 5px;
 }
-.navigationabout{
+
+.navigationabout {
     border: 1px solid #522A5E;
     border-radius: 5px;
     background-color: #522A5E;
@@ -15,14 +16,15 @@ nav{
 
 }
 
-.navigationabout a{
+.navigationabout a {
     color: #ffffff;
     text-decoration: none;
     font-size: 20px;
     position: relative;
     top: 5px;
 }
-.navigationabout1{
+
+.navigationabout1 {
     border: 1px solid #522A5E;
     border-radius: 5px;
     background-color: #522A5E;
@@ -31,81 +33,381 @@ nav{
     text-align: center;
     margin-right: 80px;
 }
-.navigationabout1 a{
+
+.navigationabout1 a {
     color: #ffffff;
     text-decoration: none;
     font-size: 20px;
     position: relative;
     top: 5px;
 }
-body{
-   margin: 0;
+
+body {
+    margin: 0;
 }
-.wholeView{
+
+.wholeView {
     display: flex;
 }
-.myPoto img{
-   width: 300px;
-   height: 500px;
-   margin-top: 5px;
-   margin-left: 20px;
-   border: 1px solid #00D265;
-   border-radius: 5px;
+
+.myPoto img {
+    width: 300px;
+    height: 500px;
+    margin-top: 5px;
+    margin-left: 20px;
+    border: 1px solid #00D265;
+    border-radius: 5px;
 }
-.moreDetail{
+
+.moreDetail {
     margin-left: 120px;
     margin-top: 30px;
-}  
-.tech h3{
+}
+
+.tech h3 {
     color: black;
     font-style: italic;
     font-size: 40px;
 }
-span{
+
+span {
     color: #00D265;
 }
-.location{
+
+.location {
     display: flex;
     margin: 0;
 }
-.location1{
+
+.location1 {
     margin: 0;
 }
+
 .location1 h5 {
     font-size: 30px;
 }
-.location1 p{
+
+.location1 p {
     font-size: 15px;
 }
-.media{
+
+.media {
     margin-left: 60px;
 }
-.media h5{
+
+.media h5 {
     font-size: 30px;
 }
-.media2{
+
+.media2 {
     background-color: black;
     border: 1px solid #00D265;
     border-radius: 30px;
     width: 170px;
     height: 60px;
-    
+
 }
-.media2 img{
+
+.media2 img {
     width: 50px;
     height: 50px;
     position: relative;
-        left: 8px;
-        top: 2px;
+    left: 8px;
+    top: 2px;
 }
-.theMail{
+
+.theMail {
     margin: 0;
 }
-.theMail h5{
+
+.theMail h5 {
     margin: 0;
     font-size: 25px;
 }
-.theMail p{
+
+.theMail p {
     margin: 0;
     font-size: 15px;
+}
+
+@media screen and (max-width:768px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        padding: 5px;
+    }
+
+    .navigationabout {
+        border: 1px solid #522A5E;
+        border-radius: 5px;
+        background-color: #ffffff;
+        width: 80px;
+        height: 40px;
+        text-align: center;
+        margin-left: 80px;
+
+    }
+
+    .navigationabout a {
+        color: #522A5E;
+        text-decoration: none;
+        font-size: 20px;
+        position: relative;
+        top: 5px;
+    }
+
+    .navigationabout1 {
+        border: 1px solid #522A5E;
+        border-radius: 5px;
+        background-color: #ffffff;
+        width: 100px;
+        height: 40px;
+        text-align: center;
+        margin-right: 80px;
+    }
+
+    .navigationabout1 a {
+        color: #522A5E;
+        text-decoration: none;
+        font-size: 20px;
+        position: relative;
+        top: 5px;
+    }
+
+    body {
+        margin: 0;
+        background-color: #522A5E;
+    }
+
+    .wholeView {
+        display: grid;
+    }
+
+    .myPoto img {
+        width: 400px;
+        height: 400px;
+        margin-top: 10px;
+        margin-left: 20px;
+        border: 1px solid #00D265;
+        border-radius: 40px 10px;
+    }
+
+    .moreDetail {
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    .tech h3 {
+        color: rgb(255, 255, 255);
+        font-style: italic;
+
+    }
+
+    span {
+        color: #00D265;
+    }
+
+    .location {
+        display: flex;
+        margin: 0;
+    }
+
+    .location1 {
+        margin: 0;
+    }
+
+    .location1 h5 {
+        color: #ffffff;
+        font-size: 30px;
+    }
+
+    .location1 p {
+        color: #ffffff;
+        font-size: 15px;
+    }
+
+    .media {
+        margin-left: 60px;
+    }
+
+    .media h5 {
+        color: #ffffff;
+        font-size: 30px;
+    }
+
+    .media2 {
+        background-color: black;
+        border: 1px solid #00D265;
+        border-radius: 30px;
+        width: 170px;
+        height: 60px;
+
+    }
+
+    .media2 img {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        left: 8px;
+        top: 2px;
+    }
+
+    .theMail {
+        margin: 0;
+    }
+
+    .theMail h5 {
+        color: #ffffff;
+        margin: 0;
+        font-size: 25px;
+    }
+
+    .theMail p {
+        color: #ffffff;
+        margin: 0;
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width:425px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        padding: 5px;
+    }
+
+    .navigationabout {
+        border: 1px solid #522A5E;
+        border-radius: 5px;
+        background-color: #ffffff;
+        width: 80px;
+        height: 40px;
+        text-align: center;
+        margin-left: 40px;
+
+    }
+
+    .navigationabout a {
+        color: #522A5E;
+        text-decoration: none;
+        font-size: 20px;
+        position: relative;
+        top: 5px;
+    }
+
+    .navigationabout1 {
+        border: 1px solid #522A5E;
+        border-radius: 5px;
+        background-color: #ffffff;
+        width: 100px;
+        height: 40px;
+        text-align: center;
+        margin-right: 20px;
+    }
+
+    .navigationabout1 a {
+        color: #522A5E;
+        text-decoration: none;
+        font-size: 20px;
+        position: relative;
+        top: 5px;
+    }
+
+    body {
+        margin: 0;
+        background-color: #522A5E;
+    }
+
+    .wholeView {
+        display: grid;
+    }
+
+    .myPoto img {
+        width: 250px;
+        height: 250px;
+        margin-top: 10px;
+        margin-left: 20px;
+        border: 1px solid #00D265;
+        border-radius: 40px 10px;
+    }
+
+    .moreDetail {
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    .tech h3 {
+        color: rgb(255, 255, 255);
+        font-style: italic;
+        font-size: 20px;
+
+    }
+
+    span {
+        color: #00D265;
+    }
+
+    .location {
+        display: grid;
+        margin: 0;
+    }
+
+    .location1 {
+        margin: 0;
+    }
+
+    .location1 h5 {
+        color: #ffffff;
+        font-size: 15px;
+    }
+
+    .location1 p {
+        color: #ffffff;
+        font-size: 10px;
+    }
+
+    .media {
+        margin-left: 0px;
+    }
+
+    .media h5 {
+        color: #ffffff;
+        font-size: 15px;
+    }
+
+    .media2 {
+        background-color: black;
+        border: 1px solid #00D265;
+        border-radius: 30px;
+        width: 170px;
+        height: 60px;
+
+    }
+
+    .media2 img {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        left: 8px;
+        top: 2px;
+    }
+
+    .theMail {
+        margin: 0;
+    }
+
+    .theMail h5 {
+        color: #ffffff;
+        margin: 0;
+        font-size: 15px;
+    }
+
+    .theMail p {
+        color: #ffffff;
+        margin: 0;
+        font-size: 15px;
+    }
 }
