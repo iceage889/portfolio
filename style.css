@@ -324,6 +324,7 @@ nav img.logo {
     .menu-icon {
         display: block;
 
+
     }
 
     .hideOnMobile {
@@ -518,10 +519,9 @@ nav img.logo {
 
 }
 
-
-@media screen and (max-width:375px) {
+@media (max-width:425px) {
     .desktop-nav {
-        display: none;
+        display: flex;
     }
 
     .mobileNav {
@@ -536,7 +536,7 @@ nav img.logo {
     }
 
     .mobileNav .logo {
-        display: none;
+        display: flex;
         margin: 10px 15px;
     }
 
@@ -547,7 +547,7 @@ nav img.logo {
     }
 
     .top {
-        display: none;
+        display: block;
         /* Hide desktop menu */
     }
 
@@ -555,6 +555,7 @@ nav img.logo {
 
     .menu-icon {
         display: block;
+
 
 
     }
