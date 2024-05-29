@@ -1,11 +1,13 @@
-body{
-background-color:#522A5E;
+body {
+    background-color: #522A5E;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
 }
-.navigationabout{
+
+.navigationabout {
     border: 1px solid white;
     border-radius: 5px;
     background-color: #ffffff;
@@ -16,14 +18,15 @@ nav{
 
 }
 
-.navigationabout a{
+.navigationabout a {
     color: #522A5E;
     text-decoration: none;
     font-size: 20px;
     position: relative;
     top: 5px;
 }
-.navigationabout1{
+
+.navigationabout1 {
     border: 1px solid #ffffff;
     border-radius: 5px;
     background-color: #ffffff;
@@ -32,55 +35,65 @@ nav{
     text-align: center;
     margin-right: 80px;
 }
-.navigationabout1 a{
+
+.navigationabout1 a {
     color: #522A5E;
     text-decoration: none;
     font-size: 20px;
     position: relative;
     top: 5px;
 }
-.fullcode{
+
+.fullcode {
     display: flex;
 }
-.overimage img{
+
+.overimage img {
     padding: 30px;
     width: 300px;
     height: 500px;
 }
-.mid-edu{
+
+.mid-edu {
     display: flex;
     margin-top: 80px;
 }
-.mid-edu p{
+
+.mid-edu p {
     color: aliceblue;
-    font-size: 18px;  
+    font-size: 18px;
 }
-.mid-edu1{
+
+.mid-edu1 {
     display: grid;
     margin-left: 100px;
 }
+
 .mid-edu1 h4 {
-   color: #ffffff;
-   margin-left: 40px;
-   font-size: 30px;
+    color: #ffffff;
+    margin-left: 40px;
+    font-size: 30px;
 }
-.mid-edu1 p{
+
+.mid-edu1 p {
     color: #ffffff;
     font-size: 18px;
     position: relative;
     bottom: 120px;
 }
-.degreed{
-    border:1px solid #ffffff;
+
+.degreed {
+    border: 1px solid #ffffff;
     border-radius: 10px;
-    background-color:#ffffff;
+    background-color: #ffffff;
     width: 230px;
     height: 40px;
     text-align: center;
     position: relative;
     bottom: 180px;
 }
-.degreed a{
+
+.degreed a {
     color: #522A5E;
     text-align: center;
     font-size: 17px;
@@ -88,20 +101,86 @@ nav{
     position: relative;
     top: 10px;
 }
-.skilled{
+
+.skilled {
     margin: 0;
     color: #ffffff;
 }
-.skilled h4{
+
+.skilled h4 {
     /*margin: 0;*/
     margin-left: 100px;
     font-size: 20px;
 }
-.skilled p{
+
+.skilled p {
     margin: 0;
     color: aliceblue;
     font-size: 18px;
     margin-left: 60px;
+
+
+}
+
+@media (max-width:768px) {
+    .fullcode {
+        display: flex;
+    }
+
+    .mid-edu {
+        display: grid;
+        margin-top: 50px;
+    }
+
+    .mid-edu1 p {
+        color: #ffffff;
+        font-size: 18px;
+        position: relative;
+        bottom: 80px;
+    }
+
+    .degreed {
+        border: 1px solid #ffffff;
+        border-radius: 10px;
+        background-color: #ffffff;
+        width: 230px;
+        height: 40px;
+        text-align: center;
+        position: relative;
+        bottom: 60px;
+    }
+
+
+}
+
+
+@media (max-width:425px) {
+    .fullcode {
+        display: grid;
+    }
+
+    .mid-edu {
+        display: grid;
+        margin-top: 50px;
+    }
+
+    .mid-edu1 p {
+        color: #ffffff;
+        font-size: 18px;
+        position: relative;
+        bottom: 40px;
+    }
+
+    .degreed {
+        border: 1px solid #ffffff;
+        border-radius: 10px;
+        background-color: #ffffff;
+        width: 230px;
+        height: 40px;
+        text-align: center;
+        position: relative;
+        bottom: 30px;
+    }
 
 
 }
